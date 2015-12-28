@@ -131,10 +131,10 @@ var yellr = {
             html += '  </div>';
             break;
           case 'video':
-            html += '<video class="embedded-player" controls="" poster="/media/58625b17-787c-46f8-b68b-328681ee3f17.mp4">';
-            html += '  <source type="video/mp4" src="/media/58625b17-787c-46f8-b68b-328681ee3f17.mp4"></source>';
+            html += '<video class="embedded-player" controls="" poster="/media/' + post.media_objects[0].filename + '">';
+            html += '  <source type="video/mp4" src="/media/' + post.media_objects[0].filename + '"></source>';
             html += '  <!--Fallback for browsers that do not support the <video> element-->';
-            html += '  <a href="/media/58625b17-787c-46f8-b68b-328681ee3f17.mp4">Download</a>';
+            html += '  <a href="/media/' + post.media_objects[0].filename + '">Download</a>';
             html += '</video>';
             break;
           case 'audio':

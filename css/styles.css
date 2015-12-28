@@ -186,3 +186,7 @@ header {
   font-size:80%;
 }
 
+header .header-content .header-content-inner p {
+  margin: 5px auto !important;
+}
+

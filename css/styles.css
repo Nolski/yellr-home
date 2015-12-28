@@ -3,7 +3,9 @@
   margin: 20px auto;
   background-color: #F5F8FA;
   color: #292f33;
-  overflow: scroll;
+  overflow: auto;
+  font-family: 'Open Sans';
+  background-color: rgba(255,255,255,.2);
 }
 
 header {
@@ -21,6 +23,7 @@ header {
 
 .column-large {
   width: 92%;
+  float: right;
 }
 
 .column {
@@ -38,14 +41,16 @@ header {
 
 .container-box {
   border: 1px solid #FFCF13;
-  border-top-left-radius: 5px;
+  border-radius: 5px;
+  /*border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;*/
 }
 
 .inside-container {
   padding: .5rem;
   padding-bottom: 1rem;
+  background-color: #EEEEEE;
 }
 
 .header-blank {
@@ -90,6 +95,10 @@ header {
   border-bottom: 1px solid #FFCF13;
 }
 
+.post-info {
+  text-align: left;
+}
+
 .votes-container {
   padding-left: .5rem;
   padding-right: .5rem;
@@ -112,6 +121,12 @@ header {
   padding-right: 1rem;
   font-weight: bold;
   color: #222 !important;
+  float:right;
+  max-height: 86px !important;
+  max-width: 100% !important;
+  width: 100%;
+  text-align: left;
+  overflow: auto;
 }
 
 .vote-icon {
@@ -164,9 +179,10 @@ header {
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .small-text {
   font-size:80%;
 }
+

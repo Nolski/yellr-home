@@ -31,6 +31,7 @@ header {
 
 .post {
   margin: auto;
+  margin-top: 1rem;
   min-width: 320px;
   max-width: 400px;
 }
@@ -110,6 +111,7 @@ header {
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: bold;
+  color: #222 !important;
 }
 
 .vote-icon {

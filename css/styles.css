@@ -1,0 +1,170 @@
+#local-feed {
+  height: 400px;
+  margin: 20px auto;
+  background-color: #F5F8FA;
+  color: #292f33;
+  overflow: scroll;
+}
+
+header {
+  background-attachment: fixed;
+}
+
+
+.icon {
+  padding-right: 5px;
+}
+
+.column-tiny {
+    width: 7%;
+}
+
+.column-large {
+  width: 92%;
+}
+
+.column {
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.post {
+  margin: auto;
+  min-width: 320px;
+  max-width: 400px;
+}
+
+.container-box {
+  border: 1px solid #FFCF13;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.inside-container {
+  padding: .5rem;
+  padding-bottom: 1rem;
+}
+
+.header-blank {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+  width: 100%;
+  font-size: 200%;
+  background-color: #FFCF13;
+  color: black;
+  font-weight: bold;
+}
+
+.header-media {
+  width: 100%;
+  background-color: #FFCF13;
+}
+
+.header-media img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  min-width: 318px;
+  max-width: 398px;
+  border-bottom: 1px solid #FFCF13;
+}
+
+.header-media video {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  min-width: 318px;
+  max-width: 398px;
+  border-bottom: 1px solid #FFCF13;
+}
+
+.header-media audio {
+  padding: 10%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  /*min-width: 318px;
+  max-width: 398px;*/
+  width: 80%;
+  border-bottom: 1px solid #FFCF13;
+}
+
+.votes-container {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  display: inline-block;
+}
+
+.question-text {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.question-container {
+  font-style: italic;
+}
+
+.post-text {
+  font-size: 120%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-weight: bold;
+}
+
+.vote-icon {
+  font-size: 150%;
+}
+
+.up-vote-count {
+  width: 100%;
+  color: #1ABC9C;
+  text-align: center;
+}
+
+.down-vote-count {
+  width: 100%;
+  color: #FF6347;
+  text-align: center;
+}
+
+.up-vote {
+  color: #1ABC9C;
+}
+
+.down-vote {
+  color: #FF6347;
+}
+
+.assignment-contents {
+  padding: 10px;
+}
+
+.anonymous-user-label {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.yellr-label {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #FFCF13;
+  display: inline-block;
+  padding: .5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  float: left;
+}
+
+.yellr-label a {
+  text-decoration: none;
+  color: black;
+}
+
+.right {
+    float: right;
+}
+
+.small-text {
+  font-size:80%;
+}

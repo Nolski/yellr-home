@@ -37,7 +37,7 @@ header {
 }
 
 .container-box {
-  border: 1px solid #FFCF13;
+  border: 1px solid #DFB200;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -54,14 +54,14 @@ header {
   text-align: center;
   width: 100%;
   font-size: 200%;
-  background-color: #FFCF13;
+  background-color: #DFB200;
   color: black;
   font-weight: bold;
 }
 
 .header-media {
   width: 100%;
-  background-color: #FFCF13;
+  background-color: #DFB200;
 }
 
 .header-media img {
@@ -69,7 +69,7 @@ header {
   border-top-right-radius: 5px;
   min-width: 318px;
   max-width: 398px;
-  border-bottom: 1px solid #FFCF13;
+  border-bottom: 1px solid #DFB200;
 }
 
 .header-media video {
@@ -77,7 +77,7 @@ header {
   border-top-right-radius: 5px;
   min-width: 318px;
   max-width: 398px;
-  border-bottom: 1px solid #FFCF13;
+  border-bottom: 1px solid #DFB200;
 }
 
 .header-media audio {
@@ -87,7 +87,7 @@ header {
   /*min-width: 318px;
   max-width: 398px;*/
   width: 80%;
-  border-bottom: 1px solid #FFCF13;
+  border-bottom: 1px solid #DFB200;
 }
 
 .votes-container {
@@ -111,6 +111,7 @@ header {
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: bold;
+  text-align: left;
   color: #222 !important;
 }
 
@@ -150,7 +151,7 @@ header {
 .yellr-label {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: #FFCF13;
+  background-color: #DFB200;
   display: inline-block;
   padding: .5rem;
   padding-left: 1rem;

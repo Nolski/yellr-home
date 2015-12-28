@@ -3,7 +3,9 @@
   margin: 20px auto;
   background-color: #F5F8FA;
   color: #292f33;
-  overflow: scroll;
+  overflow: auto;
+  font-family: 'Open Sans';
+  background-color: rgba(255,255,255,.2);
 }
 
 header {
@@ -21,6 +23,7 @@ header {
 
 .column-large {
   width: 92%;
+  float: right;
 }
 
 .column {
@@ -37,15 +40,17 @@ header {
 }
 
 .container-box {
-  border: 1px solid #DFB200;
-  border-top-left-radius: 5px;
+  border: 1px solid #FFCF13;
+  border-radius: 5px;
+  /*border-top-left-radius: 5px;
   border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;*/
 }
 
 .inside-container {
   padding: .5rem;
   padding-bottom: 1rem;
+  background-color: #EEEEEE;
 }
 
 .header-blank {
@@ -54,14 +59,14 @@ header {
   text-align: center;
   width: 100%;
   font-size: 200%;
-  background-color: #DFB200;
+  background-color: #FFCF13;
   color: black;
   font-weight: bold;
 }
 
 .header-media {
   width: 100%;
-  background-color: #DFB200;
+  background-color: #FFCF13;
 }
 
 .header-media img {
@@ -69,7 +74,7 @@ header {
   border-top-right-radius: 5px;
   min-width: 318px;
   max-width: 398px;
-  border-bottom: 1px solid #DFB200;
+  border-bottom: 1px solid #FFCF13;
 }
 
 .header-media video {
@@ -77,7 +82,7 @@ header {
   border-top-right-radius: 5px;
   min-width: 318px;
   max-width: 398px;
-  border-bottom: 1px solid #DFB200;
+  border-bottom: 1px solid #FFCF13;
 }
 
 .header-media audio {
@@ -87,7 +92,11 @@ header {
   /*min-width: 318px;
   max-width: 398px;*/
   width: 80%;
-  border-bottom: 1px solid #DFB200;
+  border-bottom: 1px solid #FFCF13;
+}
+
+.post-info {
+  text-align: left;
 }
 
 .votes-container {
@@ -111,8 +120,13 @@ header {
   padding-left: 1rem;
   padding-right: 1rem;
   font-weight: bold;
-  text-align: left;
   color: #222 !important;
+  float:right;
+  max-height: 86px !important;
+  max-width: 100% !important;
+  width: 100%;
+  text-align: left;
+  overflow: auto;
 }
 
 .vote-icon {
@@ -151,7 +165,7 @@ header {
 .yellr-label {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: #DFB200;
+  background-color: #FFCF13;
   display: inline-block;
   padding: .5rem;
   padding-left: 1rem;
@@ -165,9 +179,10 @@ header {
 }
 
 .right {
-    float: right;
+  float: right;
 }
 
 .small-text {
   font-size:80%;
 }
+

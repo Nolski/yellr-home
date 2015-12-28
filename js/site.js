@@ -150,9 +150,9 @@ var yellr = {
         };
       }
       html += '  <div class="inside-container">';
-      html += '    <div class="small-text">';
+      html += '    <div class="post-info small-text">';
       html += '      <span class="right"><i class="fa fa-pencil icon"></i>' + post.creation_datetime + '</span>';
-      html += '      <i class="fa fa-user anonymous-user-label icon"></i> Anonymous User';
+      html += '      <span class="text-left"><i class="fa fa-user anonymous-user-label icon"></i> Anonymous User</span>';
       html += '    </div>';
       html += '    <div class="column column-tiny">';
       html += '      <div class="votes-container">';
